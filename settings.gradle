@@ -1,0 +1,4 @@
+rootProject.name = 'Test'
+include '../Test-Another/Another'
+findProject(':../Test-Another/Another')?.name = 'Another'
+
